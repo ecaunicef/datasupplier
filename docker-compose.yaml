@@ -1,0 +1,16 @@
+version: '3.5'
+services:
+  datasupplier:
+    image: datasupplier:latest
+    build: .
+    networks:
+      - datasupplier_backend
+    ports:
+      - "8067:8067"
+    volumes:
+      - ./:/usr/src/app
+
+networks:
+  datasupplier_backend:
+    external: 
+      name: micro_network

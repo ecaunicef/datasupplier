@@ -1,0 +1,29 @@
+ {
+    "type": "object",
+    "properties": {
+    "_id": {
+        "type": "string",
+        "description": "The auto-generated id"
+    },
+    "name": {
+        "type": "string",
+        "description": "Area Name"
+    },
+    "area_group": {
+        "type": "string",
+        "description": "Area Group"
+    },
+    "area_code": {
+        "type": "string",
+        "description": "Area Code"
+    },
+    "level": {
+        "type": "number",
+        "description": "Area Level"
+    },
+    "parent_id": {
+        "type": "string",
+        "description": "Parent Area Id"
+    }
+    }
+}

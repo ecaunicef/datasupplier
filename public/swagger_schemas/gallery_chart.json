@@ -1,0 +1,45 @@
+{
+    "type": "object",
+    "properties": {
+        "_id": {
+            "type": "string",
+            "description": "The auto-generated id"
+        },
+        "name": {
+            "type": "string",
+            "description": "Visualization Name"
+        },
+        "analysis": {
+            "type": "string",
+            "description": "Visualization analysis"
+        },
+        "time_period": {
+            "type": "array",
+            "description": "Time period list"
+        },
+        "chart_type": {
+            "type": "string",
+            "description": "Selected chart type"
+        },
+        "gallery_id": {
+            "type": "string",
+            "description": "Selected gallry id"
+        },
+        "dataset_id": {
+            "type": "string",
+            "description": "Selected dataset id"
+        },
+        "area_level": {
+            "type": "string",
+            "description": "Selected area level"
+        },
+        "ius": {
+            "type": "array",
+            "description": "Selected indicator-unit-subgroup"
+        },
+        "settings": {
+            "type": "string",
+            "description": "Selected chart settings"
+        }
+    }
+}

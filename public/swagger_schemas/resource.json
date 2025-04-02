@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type":"object",
+            "properties":{
+                "title":{"type":"string"},
+                "type": {"type":"string"},
+                "description": {"type":"string"},
+                "category":{"type":"string"},
+                "url":{"type":"string"},
+                "document":{"type":"string"},
+                "image":{"type":"string"},
+                "status": {"type":"number"}
+
+            }
+        }
+    }
+}

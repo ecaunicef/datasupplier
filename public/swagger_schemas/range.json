@@ -1,0 +1,43 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type":"object",
+            "properties":{
+                "ontrack":{
+                    "type":"object",
+                    "properties":{
+                        "min":{
+                            "type":"number"
+                        },
+                        "max":{
+                            "type":"number"
+                        }
+                    }
+                },
+                "offtrack":{
+                    "type":"object",
+                    "properties":{
+                        "min":{
+                            "type":"number"
+                        },
+                        "max":{
+                            "type":"number"
+                        }
+                    }
+                },
+                "nochange":{
+                    "type":"object",
+                    "properties":{
+                        "min":{
+                            "type":"number"
+                        },
+                        "max":{
+                            "type":"number"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

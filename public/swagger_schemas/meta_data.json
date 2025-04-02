@@ -1,0 +1,40 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "framework_code":{
+                "type": "string"
+            },
+            "iu_id":{
+                "type":"string"                
+            },
+            "mt1": {
+                "type": "string"
+            },
+            "mt2": {
+                "type": "string"
+            },
+            "mt3": {
+                "type": "string"
+            },
+            "mt4": {
+                "type": "string"
+            },
+            "mt5": {
+                "type": "string"
+            },
+            "mt6": {
+                "type": "string"
+            },
+            "mt7": {
+                "type": "string"
+            },
+            "mt8": {
+                "type": "string"
+            },
+            "mt9": {
+                "type": "string"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "type": "object",
+    "required": [
+        "name",
+        "photoUrls",
+        "size",
+        "totalElements",
+        "totalPages",
+        "pageNumber",
+        "filterKeyWord",
+        "startOffset",
+        "endOffset",
+        "level",
+        "framework_code"
+      ],
+    "properties": {
+        "size": {
+            "type": "number"
+        },
+        "totalElements": {
+            "type": "string"
+        },
+        "totalPages": {
+            "type": "string"
+        },
+        "pageNumber": {
+            "type": "string"
+        },
+        "filterKeyWord": {
+            "type": "number"
+        },
+        "startOffset": {
+            "type": "string"
+        },
+        "endOffset": {
+            "type": "string"
+        },
+        "level": {
+            "type": "array",
+            "items":{
+                "type":"number"
+            }
+        },
+        "framework_code": {
+            "type": "number"
+        },
+        "dataStatus":{
+            "type":"string"
+        },
+        "userId":{
+            "type":"string"
+        },
+        "status": {
+            "type": "number"
+        }
+    }
+}

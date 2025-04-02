@@ -1,0 +1,15 @@
+
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type":"object",
+            "properties":{
+                "id":{"type":"string", "description":"dataset id"},
+                "name": {"type":"string","description":"dataset name"},
+                "description": {"type":"string","description":"dataset description"},
+                "status": {"type":"number","description":"dataset status"}
+            }
+        }
+    }
+}

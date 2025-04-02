@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "_id": {
+            "type": "string",
+            "description": "The auto-generated id"
+        },
+        "name": {
+            "type": "string",
+            "description": "Gallery Name"
+        }
+    }
+}

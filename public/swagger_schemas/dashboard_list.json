@@ -1,0 +1,40 @@
+
+{
+    "type": "object",
+    "properties": {
+        "status":{"type":"number"},
+        "data": {
+            "type":"object",
+            "properties":{
+                "name": {"type":"string"},
+                "status":{"type":"string"},
+                "section": {
+                    "type": "array",
+                    "items": {
+                        "type":"object",
+                        "properties":{
+                            "id": {
+                                "type":"string"
+                            },
+                            "name":{
+                                "type":"string"
+                            },
+                            "bg_color":{
+                                "type":"string"
+                            },
+                            "container_color":{
+                                "type":"string"
+                            },
+                            "status":{
+                                "type":"number"
+                            },
+                            "sequence":{
+                                "type":"number"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

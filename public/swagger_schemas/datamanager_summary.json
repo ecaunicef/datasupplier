@@ -1,0 +1,18 @@
+ {
+    "type": "object",
+    "properties": {
+        "data": {
+            "type":"object",
+            "properties":{
+                "sourceCount": {"type":"number","description":"count of all sources"},
+                "areaCount": {"type":"number","description":"count of all areas"},
+                "iusCount": {"type":"number","description":"count of all IUS"},
+                "userCount": {"type":"number","description":"count of all users"},
+                "dataCount": {"type":"number","description":"count of all data"},
+                "resourceCount": {"type":"number","description":"count of all resources"},
+                "frameworkCount": {"type":"number","description":"count of all framework"},
+                "dataiusCount": {"type":"number","description":"count of all data value"}
+            }
+        }
+    }
+}

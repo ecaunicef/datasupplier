@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type":"object",
+            "properties":{
+                "ius_id": {
+                    "type": "string"
+                },
+                "horizontal": {
+                    "type": "string"
+                },
+                "vertical": {
+                    "type": "string"
+                },
+                "function_type": {
+                    "type": "string"
+                },
+                "decimal_value": {
+                    "type": "number"
+                },
+                "status": {
+                    "type": "number"
+                }
+            }
+        }
+    }
+}

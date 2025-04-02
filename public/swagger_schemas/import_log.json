@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type":"object",
+            "properties":{
+                "filename":{"type":"string"},
+                "error_filename": {"type":"string"},
+                "imported_records": {"type":"number"},
+                "updated_records":{"type":"number"},
+                "error":{"type":"number"},
+                "total_records":{"type":"number"},
+                "created_at":{"type":"string"},
+                "user_id":{"type":"string"}
+            }
+        }
+    }
+}

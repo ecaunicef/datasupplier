@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type":"object",
+            "properties":{
+                "title":{"type":"string"},
+                "startDate": {"type":"string"},
+                "endDate": {"type":"string"},
+                "level":{"type":"string"},
+                "original_name":{"type":"string"},
+                "document":{"type":"string"}
+            }
+        }
+    }
+}

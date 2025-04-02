@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "level_name": {
+            "type": "string"
+        },
+        "level": {
+            "type": "number"
+        },
+        "parent_id": {
+            "type": "string"
+        },
+        "framework_id": {
+            "type": "string"
+        },
+        "ius": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "status": {
+            "type": "string"
+        }
+    }
+}

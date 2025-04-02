@@ -1,0 +1,56 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "password": {
+            "type": "string"
+        },
+        "role": {
+            "type": "string"
+        },
+        "area": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "framework": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "login_time": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "logout_time": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "login_info": {
+            "type": "string"
+        },
+        "organization": {
+            "type": "string"
+        },
+        "designation": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string"
+        },
+        "is_framework_none": {
+            "type": "boolean"
+        }
+    }
+}

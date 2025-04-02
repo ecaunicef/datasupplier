@@ -1,0 +1,45 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "object",
+            "properties": {
+                
+                "ius_list":{
+                    "type":"object",
+                    "properties":{
+                        "_id":{"type":"string"},
+                        "name":{"type":"string"}
+                    }
+                },
+
+                "records":{
+                    "type":"object",
+                    "properties":{
+                        "_id": {
+                            "type": "string"
+                        },
+                        "role": {
+                            "type": "number"
+                        },
+                        "email": {
+                            "type": "string"
+                        },
+                        "name": {
+                            "type": "string"
+                        },
+                        "status": {
+                            "type": "number"
+                        },
+                        "department": {
+                            "type": "array",
+                            "items":{
+                                "type":"string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

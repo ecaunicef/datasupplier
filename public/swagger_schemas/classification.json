@@ -1,0 +1,17 @@
+
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type":"object",
+            "properties":{
+                "id":{"type":"string", "description":"goal id"},
+                "level1": {"type":"string","description":"goal name"},
+                "level2": {"type":"string","description":"goal description"},
+                "level2_id": {"type":"string","description":"goal status"},
+                "type": {"type":"string","description":"goal description"},
+                "status": {"type":"number","description":"goal status"}
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "ius name"
+                },
+                "unit": {
+                    "type": "string",
+                    "description": "ius unit"
+                },
+                "high_is_good": {
+                    "type": "string",
+                    "description": "ius description"
+                },
+                "status": {
+                    "type": "number",
+                    "description": "ius status"
+                },
+                "sdmx_indicator_gid": {
+                    "type": "string",
+                    "description": "sdmax indicator id"
+                },
+                "sdmx_unit_gid": {
+                    "type": "string",
+                    "description": "sdmax unit id"
+                },
+                "metadata": {
+                    "type": "object",
+                    "properties": {
+                        "mt1": {
+                            "type": "string"
+                        },
+                        "mt2": {
+                            "type": "string"
+                        },
+                        "mt3": {
+                            "type": "string"
+                        },
+                        "mt4": {
+                            "type": "string"
+                        },
+                        "mt5": {
+                            "type": "string"
+                        },
+                        "mt6": {
+                            "type": "string"
+                        },
+                        "mt7": {
+                            "type": "string"
+                        },
+                        "mt8": {
+                            "type": "string"
+                        },
+                        "mt9": {
+                            "type": "string"
+                        }                        
+                    }
+                },
+                "default_viz": {
+                    "type":"object",
+                    "properties":{
+                        "chart_type": {"type":"string"},
+                        "time_period": {"type":"string"},
+                        "subgroup_name": {
+                            "type":"object",
+                            "properties":{
+                                "name": {"type":"string"},
+                                "level": {"type":"number"}
+                            }                        
+                        }
+                    }
+                    
+                },
+                "reporting_frequency": {
+                    "type": "string"
+                },
+                "indicator_category": {
+                    "type": "string"
+                },
+                "indicator_number": {
+                    "type": "string"
+                },
+                "is_dif": {
+                    "type": "number"
+                },
+                "is_framework_indicator": {"type": "boolean"}
+            }
+        }
+    }
+}
