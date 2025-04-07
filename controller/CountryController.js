@@ -298,55 +298,56 @@ let countryController = {
 
                 // go into level 2
                 if(country_code != undefined) {
-                    if(fs.existsSync(contantPath+"/"+country_code+".json")){
-                        axios.get(keyPath+"constantfile/"+country_code+".json")
-                        .then(response => {
-                            const geojsonData = response.data;  // Axios response data
+                    // if(fs.existsSync(contantPath+"/"+country_code+".json")){
+                    //     axios.get(keyPath+"constantfile/"+country_code+".json")
+                    //     .then(response => {
+                    //         const geojsonData = response.data;  // Axios response data
 
-                            var geoJsonLayer = L.geoJSON(geojsonData)
-                            var clickedFeature2 = null;
+                    //         var geoJsonLayer = L.geoJSON(geojsonData)
+                    //         var clickedFeature2 = null;
 
-                            var userLat = latitude;
-                            var userLon = longitude;
+                    //         var userLat = latitude;
+                    //         var userLon = longitude;
 
-                            // var userLat = 18.2232706;
-                            // var userLon = -63.0566336;
+                    //         // var userLat = 18.2232706;
+                    //         // var userLon = -63.0566336;
 
-                            // Virgin Island UK
-                            const aa = {lat: userLat, lng: userLon}
-                            // console.log("bb", aa)
+                    //         // Virgin Island UK
+                    //         const aa = {lat: userLat, lng: userLon}
+                    //         // console.log("bb", aa)
 
 
-                            // Add a marker for the user's location
-                            const marker = L.marker([userLat, userLon])
+                    //         // Add a marker for the user's location
+                    //         const marker = L.marker([userLat, userLon])
                                             
-                            geoJsonLayer.eachLayer(function(layer) {
-                                if (layer.getBounds && layer.getBounds().contains(aa)) {
-                                    clickedFeature2 = layer.feature;
-                                } else if (layer.getLatLng && marker.getLatLng().equals(aa)) {
-                                    clickedFeature2 = layer.feature;
-                                }
-                            });
+                    //         geoJsonLayer.eachLayer(function(layer) {
+                    //             if (layer.getBounds && layer.getBounds().contains(aa)) {
+                    //                 clickedFeature2 = layer.feature;
+                    //             } else if (layer.getLatLng && marker.getLatLng().equals(aa)) {
+                    //                 clickedFeature2 = layer.feature;
+                    //             }
+                    //         });
 
-                            // console.log("111", clickedFeature)
+                    //         // console.log("111", clickedFeature)
 
-                            countryDetail['district_code'] = clickedFeature2.properties.id
-                            countryDetail['district_name'] = clickedFeature2.properties.name
+                    //         countryDetail['district_code'] = clickedFeature2.properties.id
+                    //         countryDetail['district_name'] = clickedFeature2.properties.name
 
-                            // const country_code = clickedFeature.properties.NAME2_
-                            // console.log(countryDetail)
+                    //         // const country_code = clickedFeature.properties.NAME2_
+                    //         // console.log(countryDetail)
 
-                            // go into level 2
+                    //         // go into level 2
                             
 
-                            // res.send(clickedFeature)
+                    //         // res.send(clickedFeature)
 
-                            res.send(countryDetail)
-                        })
-                    } else {
-                        // console.log("file not exists")
-                        res.send('failed')
-                    }
+                    //         res.send(countryDetail)
+                    //     })
+                    // } else {
+                    //     // console.log("file not exists")
+                    //     res.send('failed')
+                    // }
+                    res.send('failed')
                     // return
                     
                 }
