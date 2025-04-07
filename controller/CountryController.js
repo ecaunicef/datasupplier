@@ -259,7 +259,7 @@ let countryController = {
             const encodedCredentials = encodeURIComponent(keyPath);
             // var map = L.map('map');
 
-            axios.get(keyPath+"constantfile/world_2006.json")
+            axios.get(keyPath+"constantfile/world.json")
             .then(response => {
                 const geojsonData = response.data;  // Axios response data
 
